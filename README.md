@@ -1,4 +1,4 @@
-# Hackintosh-OpenCore-HP-9470m-1600x900
+# Hackintosh-OpenCore-HP-9470m-1366x768
 OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 
 <p align="center">
