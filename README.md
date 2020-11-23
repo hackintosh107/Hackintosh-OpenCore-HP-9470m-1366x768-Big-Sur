@@ -1,4 +1,4 @@
-# Hackintosh-OpenCore-HP-9470m-1366x768
+# Hackintosh-OpenCore-HP-9470m-1600x900
 OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 
 <p align="center">
@@ -20,29 +20,42 @@ OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 * Fingerprint: Synaptics Fingerprint Sensors
 
 # Version: 
-* OpenCore: 0.6.2
+* OpenCore: 0.6.3
+* macOS: 10.16 (Big Sur)
 
 # Working:
 - [x] Intel HD Graphics 4000
+- [x] Sleep
 - [x] Audio
 - [x] Internal microphone
 - [ ] External microphone
 - [x] Touchpad (full gestures)
 - [x] Battery indicator
 - [x] Ethernet
+- [x] Wi-Fi (works with Heliport)
 - [x] Bluetooth
 - [x] Card reader
 - [x] CPU power management
 - [x] Webcam
 - [x] USB ports
 - [x] Fn function keys
-- [ ] Intel® Centrino® Advanced-N 6235
 - [ ] External microphone
 - [ ] Synaptics Fingerprint Sensors
 
 # Not test:
 * Mini Displayport external port
 * D-Sub external port
+
+# Install Heliport
+1. Go to page [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases).
+2. Download **Heliport.dmg**.
+    <p align="center" style="margin:20px">
+    <img src="/img/heliport-1.png" alt="Download Heliport.dmg">
+    </p>
+3. Drag Heliport icon to Applications folder and open.
+    <p align="center" style="margin:20px">
+    <img src="/img/heliport-2.png" alt="Download Heliport.dmg">
+    </p> 
 
 # SMBIOS:
 iMac16,1
@@ -51,9 +64,6 @@ iMac16,1
 Don't use this EFI bootloader for 1600x900 resolution
 
 # Screenshots:
-<p align="center" style="margin:20px">
-  <img src="/img/Properties.png" alt="System Information">
-</p>
 <p align="center" style="margin:20px">
   <img align="center" src="/img/Backlight.png">
 </p>
