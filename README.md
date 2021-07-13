@@ -20,42 +20,32 @@ OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 * Fingerprint: Synaptics Fingerprint Sensors
 
 # Version: 
-* OpenCore: 0.6.3
+* OpenCore: 0.7.1
 * macOS: 10.16 (Big Sur)
 
 # Working:
 - [x] Intel HD Graphics 4000
 - [x] Sleep
-- [x] Audio
+- [x] Audio (using AppleALC.kext with layout-id = 13)
 - [x] Internal microphone
-- [ ] External microphone
-- [x] Touchpad (full gestures)
+- [x] External microphone
+- [x] Touchpad (with multi gestures)
 - [x] Battery indicator
 - [x] Ethernet
-- [x] Wi-Fi (works with Heliport)
+- [x] Wi-Fi
+- [x] AirDrop
 - [x] Bluetooth
-- [x] Card reader
+- [x] Sidecar
+- [ ] Card reader
 - [x] CPU power management
 - [x] Webcam
 - [x] USB ports
 - [x] Fn function keys
-- [ ] External microphone
 - [ ] Synaptics Fingerprint Sensors
 
 # Not test:
 * Mini Displayport external port
 * D-Sub external port
-
-# Install Heliport
-1. Go to page [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases).
-2. Download **Heliport.dmg**.
-    <p align="center" style="margin:20px">
-    <img src="/img/heliport-1.png" alt="Download Heliport.dmg">
-    </p>
-3. Drag Heliport icon to Applications folder and open.
-    <p align="center" style="margin:20px">
-    <img src="/img/heliport-2.png" alt="Download Heliport.dmg">
-    </p> 
 
 # SMBIOS:
 iMac16,1
@@ -65,14 +55,14 @@ Don't use this EFI bootloader for 1600x900 resolution
 
 # Screenshots:
 <p align="center" style="margin:20px">
-  <img align="center" src="/img/Backlight.png">
+  <img align="center" src="/img/BigSur_Control_Center.png">
 </p>
 <p align="center" style="margin:20px">
-  <img align="center" src="/img/Touchpad_1.png">
+  <img align="center" src="/img/BigSur_Information.png">
 </p>
 <p align="center" style="margin:20px">
-  <img align="center" src="/img/Touchpad_2.png">
+  <img align="center" src="/img/BigSur_Settings.png">
 </p>
 <p align="center" style="margin:20px">
-  <img align="center" src="/img/Touchpad_3.png">
+  <img align="center" src="/img/BigSur_Trackpad.png">
 </p>
