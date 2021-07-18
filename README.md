@@ -23,6 +23,10 @@ OpenCore EFI bootloader for HP 9470m with 1366x768 resolution
 * OpenCore: 0.7.1
 * macOS: 10.16 (Big Sur)
 
+# BIOS settings:
+* UEFI mode: UEFI Hybrid
+* SATA mode: AHCI
+
 # Working:
 - [x] Intel HD Graphics 4000
 - [x] Sleep
